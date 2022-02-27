@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/plus_sweet.mk
+    $(LOCAL_DIR)/streak_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    plus_sweet-user \
-    plus_sweet-userdebug \
-    plus_sweet-eng
+    streak_sweet-user \
+    streak_sweet-userdebug \
+    streak_sweet-eng

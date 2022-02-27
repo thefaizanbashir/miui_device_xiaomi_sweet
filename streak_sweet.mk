@@ -7,11 +7,14 @@
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit some common Plus stuff.
-$(call inherit-product, vendor/plus/config/common_full_phone.mk)
+# Inherit some common ProjectStreak stuff.
+$(call inherit-product, vendor/streak/config/common_full_phone.mk)
+
+# ProjectStreak properties
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := plus_sweet
+PRODUCT_NAME := streak_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
